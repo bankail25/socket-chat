@@ -5,6 +5,7 @@ const socketio = require('socket.io');
 const app = express();
 const path = require('path');
 const Sockets = require('./sockets')
+const cors = require('cors')
 // Servidor de sockets
 
 
@@ -24,6 +25,8 @@ class Server {
 
     middelwares(){
         this.app.use(express.static( path.resolve(__dirname, '../public')));
+
+        this.app.use(cors())
 
     }
 
