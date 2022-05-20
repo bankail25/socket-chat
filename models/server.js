@@ -28,6 +28,8 @@ class Server {
 
         this.app.use(cors())
 
+    //    Estos son otros cambios
+
     }
 
     configurarSockets(){
