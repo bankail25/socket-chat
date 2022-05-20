@@ -28,11 +28,6 @@ class Server {
 
         this.app.use(cors())
 
-    //    Estos son otros cambios
-        // Estos son mas cambios
-        // Cambios para GitHub
-        // Mentira mas cosas
-
     }
 
     configurarSockets(){
